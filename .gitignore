@@ -19,3 +19,6 @@
 *.opendb
 *.IDB
 *.Lines
+/.vs
+Assets/Animator/Frank_Fighter/Assets/Animations/FBX Animation/Frank_Fighter_UE4/Frank_Fighter_UE4.zip
+Assets/Animator/Frank_Fighter/Assets/Animations/FBX Animation/Frank_Fighter_UE4/Frank_Fighter_UE4.zip.meta

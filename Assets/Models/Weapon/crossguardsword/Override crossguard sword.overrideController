@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Override crossguard sword
+  m_Controller: {fileID: 9100000, guid: d1f663d653bdfa349844140e6734252c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 6a317b388658f81408b11b9f07b421fd, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 6a317b388658f81408b11b9f07b421fd, type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 172113928f75d4f4a8928581fcf29f33, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 172113928f75d4f4a8928581fcf29f33, type: 3}

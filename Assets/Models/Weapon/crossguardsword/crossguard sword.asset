@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219b751cbf442804db94e711e3036131, type: 3}
+  m_Name: crossguard sword
+  m_EditorClassIdentifier: 
+  weaponName: "\u5341\u5B57\u5251"
+  modelPrefab: {fileID: 9190834297041860657, guid: f7981fdb8126b9a4288c8319c5dfe163, type: 3}
+  weaponAnimator: {fileID: 22100000, guid: f02f591e97cd21540b520007b9922a25, type: 2}
+  comboResetTime: 1
+  lightAttacks:
+  - animName: Attack_1
+    transitionDuration: 0.1
+    totalDuration: 1.2
+    comboWindowStart: 0.65
+    rollCancelStartTime: 0.8
+    impulseForce: 0
+    impulseDelay: 0
+    movementSpeedMultiplier: 0
+    damageMultiplier: 10
+  - animName: Attack_2
+    transitionDuration: 0.105
+    totalDuration: 0.8
+    comboWindowStart: 0.8
+    rollCancelStartTime: 0.8
+    impulseForce: 0
+    impulseDelay: 0
+    movementSpeedMultiplier: 0
+    damageMultiplier: 10
+  heavyAttacks:
+  - animName: Heavy_1
+    transitionDuration: 0.11
+    totalDuration: 1.8
+    comboWindowStart: 0.819
+    rollCancelStartTime: 0.8
+    impulseForce: 0
+    impulseDelay: 0
+    movementSpeedMultiplier: 0
+    damageMultiplier: 20
